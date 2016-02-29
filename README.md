@@ -11,6 +11,8 @@ Follow the instructions of http://blog.lifebloodnetworks.com/?p=677 to create yo
 ## Add the certificate to a keystore file
 
 ### After you have succesfully added your .cer and .key files in your Apache server you have to add the .cer file in a keystore file. To create the keystore file:
+#### Or if you already have a certificate in any other formats like .pfx, .p7b then you can convert it to .cer at following link :- https://www.sslshopper.com/ssl-converter.html. for .cer you have to convert it to .pem first than to the .cerby just changing the extension to .cer. 
+
 1. Download the latest bcprov-jdk*on-*.jar version of bouncy castle.
 2. Store it in a known place (Desktop for example)
 3. Go to "C:\Program Files\Java\jre7\bin" or anywhere else you have installed your Java. jre7 will be the version of your java jre
