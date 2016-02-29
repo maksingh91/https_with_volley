@@ -35,10 +35,10 @@ This example explains the usage of keystore and how to read the crt. If you want
 
 ### 1. Create a singleton VolleyProvider
 
-public class VolleyProvider{
- private static VolleyProvider instance;
- private RequestQueue queue;
- private HurlStack hurlStack;
+public class VolleyProvider{ 
+private static VolleyProvider instance; 
+private RequestQueue queue; 
+private HurlStack hurlStack; 
  
  private VolleyProvider(Context ctx){
   try {
