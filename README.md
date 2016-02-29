@@ -18,7 +18,7 @@ Follow the instructions of http://blog.lifebloodnetworks.com/?p=677 to create yo
 3. Go to "C:\Program Files\Java\jre7\bin" or anywhere else you have installed your Java. jre7 will be the version of your java jre
 Open a command line (shortcut Shift + right click and press open a command line here).
 
-### Enter the following command:
+### Enter the following command: 
 keytool -importcert -v -trustcacerts -file "C:\path to Desktop\your.cer" -alias enter_your_alias -keystore "C:\path to Desktop\keystore.bks" -provider org.bouncycastle.jce.provider.BouncyCastleProvider -providerpath "C:\path to Desktop\bcprov-jdk*on-*.jar" -storetype BKS -storepass your_pass_without_quotes
 
 ### Add your keystore in your Android appliction
