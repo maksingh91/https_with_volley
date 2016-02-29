@@ -91,6 +91,6 @@ public class VolleyProvider{
 
 }
 
-### 2. Make the request from any other Activity class
+### 2. Make the request from any other Activity class 
 
      VolleyProvider.getInstance(this).addRequest(myrRequest);
